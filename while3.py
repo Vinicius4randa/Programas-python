@@ -16,5 +16,4 @@ while True:
     if nomeUsuario != senha:
         print("cadastro efetuado com sucesso!")
         break
-    else:
-        print("o usuario e a senha não podem ser iguais.")
+    print("o usuario e a senha não podem ser iguais.")
