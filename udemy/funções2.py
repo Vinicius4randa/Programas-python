@@ -6,5 +6,5 @@ def criaMultiplicador(multiplicador):
 
 num = int(input('insira o numero que será feita a tabuada:'))
 for i in range (1,11):
-    a = criaMultiplicador(i)
-    print(a(num))
+    multiplica = criaMultiplicador(i)
+    print(f'{num} * {i} = {multiplica(num)}')
